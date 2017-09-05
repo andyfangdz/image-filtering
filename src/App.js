@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import placeholder from './assets/placeholder.jpg';
+import einsteinMarylin from './assets/einstein-marilyn.png';
 import './App.css';
 
 class App extends Component {
@@ -16,7 +17,7 @@ class App extends Component {
           <h2>Project 1: Image Filtering and Hybrid Images</h2>
 
           <div style={{float: 'right', padding: '20px'}}>
-            <img src={placeholder}/>
+            <img src={einsteinMarylin}/>
             <p style={{fontSize: '14px'}}>Example of a right floating element.</p>
           </div>
 
